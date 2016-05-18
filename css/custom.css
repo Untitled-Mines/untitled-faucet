@@ -1,0 +1,50 @@
+.branding {
+  text-align: center;
+  font-family: Georgia;
+}
+.powered-by {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+}
+
+.controls {
+  margin-bottom: 5px;
+}
+
+body {
+  padding-top: 20px;
+}
+div {
+  /* border: 2px solid goldenrod; */
+}
+/* divs with the .a class hold ads */
+.a {
+  text-align: center;
+    padding: 10px;
+}
+
+@media (min-width: 992px) { 
+  .recaptcha-container {
+    margin-top: 60px;
+  }
+}
+
+.recaptcha-container {
+  text-align: center;
+}
+
+#recaptcha-target {
+  text-align: center;
+}
+#recaptcha-target div {
+  margin: 0 auto;
+}
+
+#user-info {
+  margin-bottom: 10px;
+}
+.btn-logout {
+  margin-left: 10px;
+}
