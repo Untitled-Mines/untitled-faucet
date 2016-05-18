@@ -11,9 +11,9 @@ var config = {
   app_id: 1140,
   // On MoneyPot, go to your apps "Edit" page and set the
   // Recaptcha SecretKey there. The SiteKey goes here.
-  recaptcha_sitekey: '6LemOSATAAAAAPeoqvAUJCV-uF3TCxIDpe2hxY2W',
+  recaptcha_sitekey: '6LdmMyATAAAAAKlDBn6Ljtbhi4qYd_cDcPFxE5Nf',
   // Set this to the URL where you're hosting this script.
-  redirect_uri: 'https://faucet-kryometric.c9users.io/index.html'
+  redirect_uri: 'https://untitled-mines.github.io/index.html'
 };
 
 ////////////////////////////////////////////////////////////
@@ -24,7 +24,7 @@ config.mp_api_uri = 'https://api.moneypot.com';
 config.mp_browser_uri = 'https://www.moneypot.com';
 
 if (isRunningLocally()) {
-  config.redirect_uri = 'https://faucet-kryometric.c9users.io/index.html'
+  config.redirect_uri = 'https://untitled-mines.github.io/index.html'
 }
 
 var worldStore = {
